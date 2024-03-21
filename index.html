@@ -1,0 +1,75 @@
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Tenor+Sans&display=swap');
+
+.tenor-sans-regular {
+  font-family: "Tenor Sans", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#comparatif{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#comparatif .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 45%;
+    height: auto;
+    padding: 2px;
+    margin: 0 12px;
+}
+#comparatif .pe {
+    border: 4px solid #c5925d;
+}
+#comparatif .container .title{
+    text-transform: uppercase;
+    font-size: 26px;
+}
+#comparatif .container ul {
+    margin: 0;
+}
+#comparatif .container ul  li{
+    margin: 20px 0;
+}
+
+#comparatif .pe ul {
+    list-style-type: "✔ ";
+    padding-inline-start: 1ch;
+}
+
+#comparatif .ap ul {
+    list-style-type: "✘ ";
+    padding-inline-start: 1ch;
+}
+</style>
+
+<div id="comparatif">
+    <div class="container pe">
+        <h2 class="title tenor-sans-regular">PRODUIT ENISSATI</h2>
+
+        <ul class="tenor-sans-regular">
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+        </ul>
+    </div>
+
+    <div class="container ap">
+        <h2 class="title tenor-sans-regular">LES AUTRES MARQUES</h2>
+
+        <ul class="tenor-sans-regular">
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+            <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr,</li>
+        </ul>
+    </div>
+</div>
